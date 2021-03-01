@@ -37,10 +37,21 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
+
+
+/**переписал ниже **************
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
+**/
+
+h1, h2, h3, h4, h5, h6, p
+{margin: 0;
+font-size: 2em;
+color: #000;
+}
+
 
 /* Grouping content
    ========================================================================== */
@@ -76,6 +87,7 @@ pre {
 a {
   background-color: transparent;
 }
+
 
 /**
  * 1. Remove the bottom border in Chrome 57-
