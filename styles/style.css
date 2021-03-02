@@ -283,3 +283,58 @@ z-index: 1;
 /******* Конец блока CONTENT **********/
 /**-----------------------------------**/
 /******* блок FOOTER**********/
+.footer {
+ background-color: #1f1f1f;
+ min-height: 350px;
+ padding: 60px 0 40px;
+}
+.footer__columns {
+ display: flex;
+ justify-content: space-between;
+ min-height: 350px;
+ width: 90%;
+ margin: 0 auto;
+}
+
+.footer__column_content_copyright {
+ display: flex;
+ flex-basis: 711px;
+ flex-direction: column;
+ justify-content: space-between;
+
+}
+.logo_place-footer {
+ background-image: url("../images/logo_place_footer.svg");
+ height: 35px;
+}
+.footer__author {
+ font-size: 18px;
+ font-weight: normal;
+ line-height: 25px;
+ color: white;
+}
+
+.footer__column-heading {
+ font-size: 18px;
+ line-height: 30px;
+ font-weight: bold;
+ color: white;
+}
+.footer__column-links {
+ list-style-type: none;
+ padding: 0;
+ margin: 20px 0 16px;
+}
+.footer__link {
+ text-decoration: none;
+ color: white;
+ line-height: 30px;
+ font-size: 18px;
+ font-weight: normal;
+}
+.footer__social-icon {
+ height: 16px;
+ width: 16px;
+ margin-right: 10px;
+}
+/*******Конец блока FOOTER**********/
