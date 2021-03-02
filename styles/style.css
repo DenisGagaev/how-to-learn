@@ -85,13 +85,13 @@
  top: 64px;
  right: 0;
  z-index: 0;
- width: 568;
- height: 568;
+ width: 568px;
+ height: 568px;
  }
 
       /***************!!!CONTENT!!!****************/
 /**** Блок CONTENT__description *******/
-.description_margin {
+.description {
  margin: 100px auto 0;
 }
 
@@ -134,7 +134,7 @@
 /**-----------------------------------**/
 /**** блок CONTENT__digits *******/
 
-.digits_margin {
+.digits {
  margin: 100px auto 100px;
 }
 .section-title {
@@ -162,10 +162,9 @@
 }
 .table__cell {
  width: 250px;
+ margin-top: 60px;
 }
-.table__cell-indent {
-  margin-top: 60px;
-}
+
 .table__heading {
  font-size: 24px;
  font-weight: bold;
@@ -223,7 +222,7 @@ z-index: 1;
  right: 48px;
  z-index: 3;
  text-decoration: none;
- color: #000;
+ color: #2F80ED;
  transition: opacity 0.4s linear
 }
 .feynman__link:hover {
@@ -312,6 +311,7 @@ z-index: 1;
  font-weight: normal;
  line-height: 25px;
  color: white;
+ margin: 18px 0;
 }
 
 .footer__column-heading {
