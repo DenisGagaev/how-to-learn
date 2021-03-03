@@ -1,8 +1,8 @@
-h1, h2, h3, h4, h5, h6, p
+/* h1, h2, h3, h4, h5, h6, p
 {margin: 0;
 color: #000;
 }
-
+*/
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -33,21 +33,21 @@ color: #000;
 .logo {
   width: 183px;
   height: 32px;
-  background: no-repeat center / contain;
 }
 
-.logo_place-header {
+.logo_place_header {
  position:absolute;
  top: 30px;
  left: 64px;
  z-index: 5;
- background-image: url("../images/logo_place_header.svg");
 }
 
 .header__title {
  font-size: 102px;
  font-weight: bold;
  line-height: 96px;
+ margin: 0;
+ color: #000;
  z-index: 3;
  width: 730px;
 }
@@ -61,6 +61,8 @@ color: #000;
  font-size: 18px;
  font-weight: normal;
  line-height: 25px;
+ margin: 0;
+ color: #000;
 }
 
 .header__link {
@@ -113,10 +115,11 @@ color: #000;
  font-weight: normal;
  line-height: 1.2;
  color: #2F80ED;
+ margin: 0;
 }
 
 .two-columns__main-text {
- max-width: 784px;
+ min-width: 784px;
  width: 80%;
 }
 
@@ -125,6 +128,7 @@ color: #000;
  font-weight: normal;
  line-height: 34px;
  margin: 30px 0 0;
+ color: #000;
 }
 .two-columns__paragraph:first-of-type {
  margin: 0;
@@ -149,6 +153,7 @@ color: #000;
  width: 60%;
  margin: 0 auto;
  text-align: center;
+ color: #000;
 }
 .section-subtitle {
  font-size: 24px;
@@ -157,6 +162,7 @@ color: #000;
  width: 60%;
  margin: 20px auto 0;
  text-align: center;
+ color: #000;
 }
 .table {
  display: flex;
@@ -174,22 +180,26 @@ color: #000;
  font-size: 24px;
  font-weight: bold;
  line-height: 1.15;
+ margin: 0;
+ color: #000;
 }
 
 .table__text {
  font-size: 18px;
  font-weight: normal;
  line-height: 1.2;
- margin-top: 20px;
+ margin: 20px 0 0;
+ color: #000;
 }
 /****Конец  блока CONTENT__digits *******/
 /**-----------------------------------**/
 /**** блок CONTENT__feynman *******/
 .feynman {
- height: 790px;
+ min-height: 790px;
  background-color: #F2F2F2;
  position: relative;
  z-index: 0;
+ padding-top: 100px;
 }
 .feynman__title {
  font-size: 120px;
@@ -200,6 +210,7 @@ color: #000;
  margin: 0 auto;
  position: inherit;
  z-index: 2;
+ color: #000;
 }
 .feynman__subtitle {
  font-size: 36px;
@@ -209,10 +220,12 @@ color: #000;
  margin: 70px auto 0;
  position: inherit;
  z-index: 2;
+ color: #000;
 }
 .feynman__img {
 width: 867px;
 height: 637px;
+background: url(../images/feynman.png) no-repeat center / cover;
 position: absolute;
 left: 0;
 bottom: 0;
@@ -289,13 +302,14 @@ z-index: 1;
 /******* блок FOOTER**********/
 .footer {
  background-color: #1f1f1f;
+ box-sizing: border-box;
  min-height: 350px;
  padding: 60px 0 40px;
 }
 .footer__columns {
  display: flex;
  justify-content: space-between;
- min-height: 350px;
+ min-height: 250px;
  width: 90%;
  margin: 0 auto;
 }
@@ -307,8 +321,7 @@ z-index: 1;
  justify-content: space-between;
 
 }
-.logo_place-footer {
- background-image: url("../images/logo_place_footer.svg");
+.logo_place_footer {
  height: 35px;
 }
 .footer__author {
@@ -324,11 +337,15 @@ z-index: 1;
  line-height: 30px;
  font-weight: bold;
  color: white;
+ margin: 0;
 }
 .footer__column-links {
+ margin: 20px 0 16px;
+}
+.footer__column-lists {
  list-style-type: none;
  padding: 0;
- margin: 20px 0 16px;
+ margin: 0;
 }
 .footer__link {
  text-decoration: none;
