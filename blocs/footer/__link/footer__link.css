@@ -1,0 +1,11 @@
+.footer__link {
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  transition: color 0.4s linear;
+ }
+ .footer__link:hover {
+  color: rgb(138, 137, 137);
+ }

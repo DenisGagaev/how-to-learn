@@ -1,0 +1,5 @@
+.table__heading_theme_dark {
+ color: white;
+ position: relative;
+ z-index: 2;
+}
